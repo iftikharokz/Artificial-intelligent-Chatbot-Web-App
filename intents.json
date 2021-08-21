@@ -1,0 +1,2058 @@
+{
+    "intents":[
+      
+      {
+        "tag":"daystogetdmc",
+        "patterns": ["How  many days are required to get DMC?"],
+        "responses": ["Official timing to get DMC is 3 working days"]
+      },
+      {
+        "tag":"feeffdmc",
+        "patterns": ["Fee for final DMC?"],
+        "responses": [" Fee for final DMC is Rs 1000/-"]
+      },
+      {
+        "tag":"payurgentd",
+        "patterns": ["How much do I need to pay to get urgent DMC?"],
+        "responses":[ " Fee for final DMC is Rs. 1000/- and for incomplete DMC is Rs. 300/-, Urgent DMC is not issued, normal DMC is issued in 3 working days"]
+      },
+      {
+        "tag":"antpfnd",
+        "patterns": ["Amount needed to pay for normal degree?"],
+        "responses": [" For final DMC is Rs. 1000/- and for incomplete DMC is Rs. 300/-"]
+      },
+      {
+        "tag":"fficdmc",
+        "patterns": ["How much do I need to pay to get incomplete DMC?"],
+        "responses": ["Fee for final DMS is Rs 300  - "]
+      },
+      {
+        "tag":"feedmcmethod",
+        "patterns": ["What is the method to pay fees for DMC?"],
+        "responses": ["Online Challan from LMS account can be generated or bank deposit slip can be used. "]
+      },
+      {
+        "tag":"dmcform",
+        "patterns": ["where I have to submit DMC form?"],
+        "responses": [" Submit form for DMC in window number 1 of Examinations Branch"]
+      },
+      {
+        "tag":"dmcnow",
+        "patterns": ["How do I get my DMC right now?"],
+        "responses": ["Urgent DMC is not issued."]
+      },
+      {
+        "tag":"dmcanyone",
+        "patterns": ["Will my DMC be given to anyone else?"],
+        "responses": ["Yes, somebody else can receive your DMC by showing fee challan number 2  or ID card copy of student."]
+      },
+      {
+        "tag":"chalanno",
+        "patterns":["What is the challan number (challan 1 or challan 2) used \n for DMC?"],
+        "responses": ["Attach challan number 1 with DMC. "]
+      },
+      {
+        "tag":"dmcpost",
+        "patterns": ["Is there any way to get DMC by post?"],
+        "responses": ["DMC can be received from examinations branch by hand only."]
+      },
+      {
+        "tag":"getdegree",
+        "patterns": ["What is the method to get degree?"],
+        "responses": ["\n1)\tAttach DMC/degree form, get it signed from students' section\n2)\tAttach challan of Rs. 1000/- online Challan from LMS account can be generated or bank deposit slip can be used. \n3)\tAttach 1 passport size picture\n4)\tAttach copy of provisional Certificate\n5)\tAttach matric/O level certificate copy\n6)\tAttach copy of Thesis notification (for postgraduate students only)\n7)\tApply in Examinations Branch , degree is prepared in 40 days,\nNote:-  students of affiliated colleges  need to attach covering letter  issued by their college. "]
+      },
+      {
+        "tag":"list_doc",
+        "patterns": ["List the documents needed for Degree?","documents required for degree"],
+        "responses": ["\n1)\tAttach DMC/degree form, get it signed from students' section\n2)\tAttach challan of Rs. 1000/- online Challan from LMS account can be generated or bank deposit slip can be used.  \n3)\tAttach 1 passport size picture\n4)\tAttach copy of provisional Certificate\n5)\tAttach matric/O level certificate copy\n6)\tAttach copy of Thesis notification (for postgraduate students only)\n7)\tApply in Examinations Branch, degree is prepared in 40 days,\nNote:-  students of affiliated colleges  need to attach covering letter  issued by their college. "]
+      },
+      {
+        "tag":"Days_required",
+        "patterns": ["How many days it takes to get my degree"],
+        "responses": ["Degree is issued in 40 days"]
+      },
+      {
+        "tag":"degreefee",
+        "patterns": ["How can I pay degree fee"],
+        "responses": ["Attach challan of Rs. 1000/- online Challan from LMS account can be generated or bank deposit slip can be used."]
+      },
+      {
+        "tag":"account_degree_fee",
+        "patterns": ["What is account number for paying degree fee"],
+        "responses": ["Contact your HOD office ,"]
+      },
+      {
+        "tag":"submit_degree_fee",
+        "patterns": ["Where I can submit degree fee"],
+        "responses": ["In Bank Two banks are available inside UOH , National Bank & Khyber Bank."]
+      },
+      {
+        "tag":"degree_right_now",
+        "patterns": ["How can I get my degree right now?"],
+        "responses": ["Degree is issued in 40 days, urgent degree is not issued."]
+      },
+      {
+        "tag":"Someone_receive_degree",
+        "patterns": ["Can someone else receive my degree"],
+        "responses":[ "It is advised to receive degree by student himself, however, in case student is not available in country, he can authorize his parents/siblings to receive his degree by following procedure below:\n1)\twrite an authority letter on stamp paper of Rs 50/- with registration number, name, father name, signatures and names of student and authorized person to collect degree.\n2)\tAttested ID card copies of student and authorized person.\n3)\tShow original ID card of authorized person"]
+      },
+      {
+        "tag":"authority letter",
+        "patterns":[ "Please tell me way to right authority letter to receive degree"],
+        "responses":[ "It is advised to receive degree by student himself, however, in case student is not available in country, he can authorize his parents/siblings to receive his degree by following procedure below:\n1)\twrite an authority letter on stamp paper of Rs 50/- with registration number, name, father name, signatures and names of student and authorized person to collect degree.\n2)\tAttested ID card copies of student and authorized person.\n3)\tShow original ID card of authorized person"]
+      },
+      {
+        "tag":"Athor_letter",
+        "patterns": ["Which documents are required to apply for authority letter to receive degree"],
+        "responses": ["1)\tAttested ID card copies of student and authorized person.\n2)\tShow original ID card of authorized person"]
+      },
+      {
+        "tag":"Chalanreq",
+        "patterns": ["Challan one or two is required for degree?"],
+        "responses": ["Attach challan number 1 for degree."]
+      },
+      {
+        "tag":"Degree_post",
+        "patterns": ["Can we get degree by post"],
+        "responses": ["No, degree is issued by hand only."]
+      },
+      {
+        "tag":"stamp_paper",
+        "patterns": ["Which amount stamp paper is required for authority letter"],
+        "responses":[ "Challan Rs. 50 is used for authority letter for degree."]
+      },
+      {
+        "tag":"dupdegree",
+        "patterns":[ "Can we get duplicate degree"],
+        "responses": ["In case the original degree is lost, duplicate degree can be issued."]
+      },
+      {
+        "tag":"apply_duplicte_deg",
+        "patterns": ["Where to apply for duplicate degree"],
+        "responses": ["Apply in Examinations Branch , duplicate degree is issue within 10 days"]
+      },
+      {
+        "tag":"D_duplicate",
+        "patterns": ["How many days required to get duplicate degree"],
+        "responses": ["Duplicate degree is issue within 10 days."]
+      },
+      {
+        "tag":"rpgdc",
+        "patterns": ["What is right procedure to get duplicate degree"],
+        "responses": ["In case the original degree is lost, duplicate degree can be issued, procedure is given below:\n1)\tAttach DMC/degree form, get it signed from students' section\n2)\tAttach challan of Rs. 1000/- online Challan from LMS account can be generated or bank deposit slip can be used. \n3)\tAttach 1 passport size picture.\n4)\tAttach copy of provisional Certificate.\n5)\tAttach matric/O level certificate copy.\n6)\tAttach original report of police station for the loss of degree, report must contain your name,  father name and registration number.\n7)\tAttach stamp paper of Rs. 50 and write on it your name, father name, registration number, and statement  that if original degree is found at any stage you will return original degree to examinations branch of university.\n8)\t Attach ad in any reputable newspaper for the loss of your degree, ad must contain your name,  father name and registration number\n9)\tAttach copy of Thesis notification (for postgraduate students only)\n Apply in Examinations Branch , duplicate degree is issue within 10 days"]
+      },
+      {
+        "tag":"drtgdg",
+        "patterns": ["Documents required to get duplicate degree?"],
+        "responses": ["In case the original degree is lost, duplicate degree can be issued, procedure is given below:\n1)\tAttach DMC/degree form, get it signed from students' section\n2)\tAttach challan of Rs. 1000/- online Challan from LMS account can be generated or bank deposit slip can be used. \n3)\tAttach 1 passport size picture.\n4)\tAttach copy of provisional Certificate.\n5)\tAttach matric/O level certificate copy.\n6)\tAttach original report of police station for the loss of degree, report must contain your name,  father name and registration number.\n7)\tAttach stamp paper of Rs. 50 and write on it your name, father name, registration number, and statement  that if original degree is found at any stage you will return original degree to examinations branch of university.\n8)\t Attach ad in any reputable newspaper for the loss of your degree, ad must contain your name,  father name and registration number\n9)\tAttach copy of Thesis notification (for postgraduate students only)\n Apply in Examinations Branch , duplicate degree is issue within 10 days"]
+      },
+      {"tag":"dpfb",
+        "patterns": ["What is least degree period for Bachelor's program? "],
+        "responses": ["Minimum degree duration for undergraduate program/B.Sc program is 4 years."]
+      },
+      {"tag":"lpdm",
+        "patterns": ["What is least degree period for Master's program?"],
+        "responses": ["Two years are required for Master degree."]
+      },
+      {
+        "tag":"lpdp",
+        "patterns": ["What is least degree period for Ph.D. programs?"],
+        "responses": ["Minimum degree duration for Ph.D. program is 4 years."]
+      },
+      {
+        "tag":"ldpmp",
+        "patterns": ["What  is least degree period duration for MBA programs?"],
+        "responses": ["1.5 years."]
+      },
+      {
+        "tag":"hdtb",
+        "patterns": ["What is highest degree period for Bachelor's program?"],
+        "responses": ["Maximum degree duration for under  undergraduate program/B.Sc programs is 6 years."]
+      },
+      {
+        "tag":"hdpm",
+        "patterns": ["what is highest degree period for Master's program?"],
+        "responses": ["2 years "]
+      },
+      {
+        "tag":"hdpp",
+        "patterns": ["What is highest degree period for Ph.D. program?"],
+        "responses": ["Maximum degree duration for Ph.D. programs is 7 years. ","7 years but you should also confirm from administraion of UOH"]
+      },
+      {
+        "tag":"hdpmp",
+        "patterns": ["What is highest degree period for MBA programs?"],
+        "responses": ["2 years "]
+      },
+      {
+        "tag":"ciedw",
+        "patterns": ["Can I earn degree without studing"],
+        "responses": ["NO ,its not possible" ,"Are you jocking, i'm not in the mood."]
+      },
+      {
+        "tag":"result_announce",
+        "patterns": [" in how many day's the result will be announce?"],
+        "responses": ["Your result will be confirmed upon submission of result by your teachers via online and in hard form in Examinations Branch. "]
+      },
+      {
+        "tag":"correct_gpa_m",
+        "patterns": ["who will correct those counting mistakes of my GPA?"],
+        "responses": ["In case of any issue regarding computation of GPA/CGPA, contact Examinations Branch. "]
+      },
+      {
+        "tag":"correct_gpa_h",
+        "patterns": ["Who will correct those counting mistakes of my credit hours?"],
+        "responses": ["In case of any issue regarding credit hours, contact Examinations Branch"] 
+      },
+      {
+        "tag":"pn",
+        "patterns": ["In case of improvement if get lower garde my previous or new will be counted"],
+        "responses": ["In case a student gets lower grade than previous grade, the latest grade will be counted."]
+      },
+      {
+        "tag":"cgpaUOH",
+        "patterns": ["What is least CGPA requirement to continue studies at UOH?","minimum CGPA to continue study at UOH"],
+        "responses": ["A student needs to maintain at least 1.5 CGPA to continue his/her studies at UOH."]
+      },
+      {
+         "tag":"freezswm",
+         "patterns":["can i freeze my semester","i want to freeze my semester","yes, you can freeze your smester.","Can I freeze my semester?"],
+         "responses":["yes, you can freeze your semester.","A student can apply to freeze semester during 1st ten days of commencement of semester as mentioned in Academic Calendar."]
+      },
+      {
+        "tag":"lcgpab",
+        "patterns": ["What is least CGPA requirement to pass the Bachelor's degree?"],
+        "responses": ["Minimum 1.5 CGPA is required to pass undergraduate/B.Sc degree from UOH"]
+      },
+      {
+        "tag":"lcgpam",
+        "patterns": ["What is least CGPA requirement to pass the master's degree?"],
+        "responses": ["Minimum 2.0 CGPA is required to pass postgraduate/M.Sc./MS/M.Phil. degree."]
+      },
+      {
+        "tag":"lcgpap",
+        "patterns": ["What is least CGPA requirement to pass the Ph.D. degree?"],
+        "responses": ["Minimum 3.0 CGPA is required to pass Ph.D. degree. "]
+      },
+      {
+        "tag":"min_attendance",
+        "patterns": ["What is the minimum requirement of attendance in any subject for appearing in the exams?"],
+        "responses": ["Minimum 75% attendance is required in a subject to to attend exam."]
+      },
+      {
+        "tag":"approved_leave",
+        "patterns": ["Will my approved leaves be counted in the attendance or absente?"],
+        "responses": ["Approved leave is not counted towards shortage of attendance. "]
+      },
+      {
+        "tag":"theorypart",
+        "patterns": ["Can i improve the only theory part?"],
+        "responses": ["Student can improve/repeat only theory or only lab part depending upon his choice"]
+      },
+      {
+        "tag":"subregis",
+        "patterns": ["When subject registration will open?"],
+        "responses": ["Subject registration is usually opened on the 1st day of semester start and continues for 2 weeks, students can add/drop courses during this period."]
+      },
+      {
+        "tag":"maxun",
+        "patterns": ["How many maximum credit hours are allowed to take at undergraduate level?"],
+        "responses": ["At undergraduate level, a  student can register maximum of 18 credit hours, from 3rd year onward, student can register maximum of 21 credit hours on LMS. \nAt postgraduate level, student can register maximum of 12 credit hours during a semester."]
+      },
+      {
+        "tag":"maxgra",
+        "patterns": ["How many maximum credit hours are allowed to take at graduate level?"],
+        "responses": ["At undergraduate level, a 1st or 2nd student can register maximum of 18 credit hours, from 3rd year onward, student can register maximum of 21 credit hours on LMS. \nAt postgraduate level, student can register maximum of 12 credit hours during a semester."]
+      },
+      {
+        "tag":"maxsum",
+        "patterns": ["How many maximum credit hours are allowed in summer semester?"],
+        "responses": ["Maximum of 8 credit hours can be registered in summer. "]
+      },
+      {
+        "tag":"notshowing1",
+        "patterns": ["I have registered a subject, but it is not showing in my registered subjects list on my lms."],
+        "responses": ["In case of any subject registration problem contact your departmental LMS coordinator, if problem is not resolved then contact Examinations Branch."]
+      },
+      {
+        "tag":"aout123",
+        "patterns": ["I haven't registered that subject, how is it registered automatically?"],
+        "responses": ["In case of any subject registration problem contact your departmental LMS coordinator, if problem is not resolved then contact Examinations Branch."]
+      },
+      {
+        "tag":"clashtime",
+        "patterns": ["If there is timetable clash between two subjects, then how can I register both subjects?"],
+        "responses": ["The teacher will mark you present in class other wise the learning is your responsibilty."]
+      },
+      {
+        "tag":"minstusum",
+        "patterns": ["What are minimum number of students required to get registered for a subject to offer in summer?"],
+        "responses":[ "Minimum 5 students should be registered in a subject in summer to continue, otherwise subject will be withdrawn."]
+      },
+      {
+        "tag":"notrigsum",
+        "patterns": ["What if minimum number of students do not register in subject in summer?"],
+        "responses": ["Minimum 5 students should be registered in a subject in summer to continue, otherwise subject will be withdrawn."]
+      },
+      {
+        "tag":"equilperc",
+        "patterns": ["How i can get the precentage equilance certificate?"],
+        "responses": ["To apply for percentage equivalence certificate, get DMC form, attach DMC copy and  original challan of Rs. 500/- and apply in Examinations Branch, it takes 3 working days to prepare percentage equivalence certificate. \n"]
+      },
+      {
+        "tag":"doceqcert",
+        "patterns": ["What document are required to get a percentage equivalance certificate?"],
+        "responses": ["To apply for percentage equivalence certificate, get DMC form, attach DMC copy and  original challan of Rs. 500/- and apply in Examinations Branch,it takes 3 working days to prepare percentage equivalence certificate. \n"]
+      },
+      {
+        "tag":"percfee",
+        "patterns": ["What is the fee for percentage equivalance certificate?"],
+        "responses": ["Fee for percentage certificate is Rs. 500/-"]
+      },
+      {
+        "tag":"pechmd",
+        "patterns": ["how many days it will take to get the percentage equivalance certificate?"],
+        "responses": ["It takes 3 working days to prepare percentage equivalence certificate. "]
+      },
+      {
+        "tag":"rbc",
+        "patterns": ["how to get a reqular bonifade certificate?"],
+        "responses": ["To apply for regular bonafide certificate, get DMC form, attach DMC copy and  original challan of Rs. 500/- and apply in Examinations Branch, it takes 3 working days to prepare regular bonafide certificate"]
+      },
+      {
+        "tag":"drbc",
+        "patterns": ["what documents are required for regular bonifade certificate?","documents for regular bonifade certificate?"],
+        "responses": ["To apply for regular bonafide certificate, get DMC form, attach DMC copy and  original challan of Rs. 500/- and apply in Examinations Branch, it takes 3 working days to prepare regular bonafide certificate."]
+      },
+      {
+        "tag":"frbc",
+        "patterns": ["what is the fee for regular bonifade certificate?"],
+        "responses": ["Fee for regular bonafide certificate is Rs. 500/-"]
+      },
+      {
+        "tag":"drbci",
+        "patterns": ["how many days it will take to get regular bonifade certificate?"],
+        "responses": ["It takes 3 working days to prepare regular bonafide certificate. "]
+      },
+      {
+        "tag":"embc",
+        "patterns": ["how to get embassy bonifade certificate?"],
+        "responses": ["To apply for embassy bonafide certificate, get DMC form, attach DMC and degree copy and  original challan of Rs. 500/- and apply in Examinations Branch, it takes 3 working days to prepare embassy bonafide certificate"]
+      },
+      {
+        "tag":"dembc",
+        "patterns": ["what documents are required for embassy bonifade certificate?"],
+        "responses": ["To apply for embassy bonafide certificate, get DMC form, attach DMC and degree copy and  original challan of Rs. 500/- and apply in Examinations Branch, it takes 3 working days to prepare embassy bonafide certificate."]
+      },
+      {
+        "tag":"fembc",
+        "patterns": ["what is the fee for embassy bonifade certificate?"],
+        "responses": ["Fee for embassy bonafide certificate is Rs. 500/-"]
+      },
+      {
+        "tag":"gembc",
+        "patterns": ["how many days it will take to get embassy bonifade certificate?"],
+        "responses": ["It takes 3 working days to prepare embassy bonafide certificate. "]
+      },
+      {
+        "tag":"lmsusername",
+        "patterns": ["How can i get the Lms username and password after readmission ?"],
+        "responses": ["After re-admission, get your new username and password from Examinations Branch  by showing your re-admission letter."]
+      },
+      {
+        "tag":"resub",
+        "patterns": ["How can i register subjects after readmission?"],
+        "responses": ["After re-admission, register your subjects by login in to LMS, in case of any issue,contact Examinations Branch"]
+      },
+      {
+        "tag":"newreadmiss",
+        "patterns": ["Which grades will be transferred in my new DMC after readmission?"],
+        "responses": ["C grade or above will be transferred in new DMC after re-admission."]
+      },
+      {
+        "tag":"secreadd",
+        "patterns": ["Can I get second time re-admission?"],
+        "responses": ["Second time re-admission is not allowed."]
+      },
+      {
+        "tag":"changedis",
+        "patterns": ["How can i change the discipline?","What is rule for discipline change?"],
+        "responses": ["Contact convener office for discipline change "]
+      },
+      {
+        "tag":"entrycon",
+        "patterns": ["who can give me entry pass for convocation?"],
+        "responses": ["Entry pass can be obtained from concerned department one day before convocation."]
+      },
+      {
+        "tag":"degcon",
+        "patterns": ["Is the degree being given in convocation?","Can I receive my degree on convocation?"],
+        "responses": ["Students can receive degree on convocation day."]
+      },
+      {
+        "tag":"parentscon",
+        "patterns": ["my parents wants to attend the ceremony,can they attend?","Can my parents attend convocation?"],
+        "responses": ["Parents of Gold Medalists and Ph.D scholars can attend convocation"]
+      },
+      {
+        "tag":"passreset",
+        "patterns": ["please tell me how can i reset my password on LMS","i am  not able to login my LMS account","reset password","not able to loging on lms"],
+        "responses": ["Contact IT Administrator","You can contact your department LMS coordinator to change/reset your password."]
+      },
+      {
+        "tag":"blocklms",
+        "patterns": ["what is reason of blocking my LMS account","Why My LMS account is blocked?"],
+        "responses": ["Contact examinations branch if your LMS account is blocked."]
+      },
+      {
+        "tag":"thesisnotify",
+        "patterns": ["what is the exact date to notify my thesis","How many days will it take to notify my thesis?"],
+        "responses": ["After receiving thesis from ORIC, the examinations branch usually takes 2 to 3 days to notify thesis, however, the requirement for PhD thesis are different."]
+      },
+      {
+        "tag":"withoutthesis",
+        "patterns": ["what is the option to complete my degree without thesis?"],
+        "responses": ["Students can opt design project with 30 credit hours course work if approved by department."]
+      },
+      {
+        "tag":"crthesis",
+        "patterns": ["please tell me total credit hours of thesis in MSc/MS/M. Phil ","please tell me total credit hours of thesis in undergratude"],
+        "responses":[ "30 credit hours are required for the award of MSc/MS/M. Phil degree with other conditions"]
+      },
+      {
+        "tag":"phdthesis",
+        "patterns": ["please tell me total credit hours of thesis in Phd","How many credit hours are for thesis in PhD?"],
+        "responses": ["60 credit hours are required for PhD degree, 42 credit hours for thesis and 18 credit hours for course work. Duration is minimum 3 years."]
+      },
+      {
+        "tag":"regthesis",
+        "patterns": ["Is it compulsory to register thesis on LMS","Do I have to register thesis on LMS?"],
+        "responses": ["Department registers thesis on LMS."]
+      },
+      {
+        "tag":"gpgdwt",
+        "patterns": ["what is procudre to get post graduate diploma without thesis","How can I get postgraduate diploma if I have not cleared thesis?"],
+        "responses": ["If you have completed course work but thesis is not cleared, you can apply for Postgraduate diploma in examination branch."]
+      },
+      {
+        "tag":"darftp",
+        "patterns": ["what documents are required for thesis performa","What documents to attach with thesis Performa?"],
+        "responses": ["Normally we attach copy of DMC, copy of proposal and a form with teacher comments about your research work. To get further information about it contact with their department."]
+      },
+      {
+        "tag":"acsdaw",
+        "patterns": ["Is there any extra documents required for degree/DMC for affiliated college students?"],
+        "responses": ["Degree/DMC covering letter is extra requirement with other documents for affiliated colleges students."]
+      },
+      {
+        "tag":"wiatstd",
+        "patterns": ["who is authorized to sign the degree of affiliated college"],
+        "responses":["Controller/Principal/HOD can sign degree completion for affiliated colleges students."]
+      },
+      {
+        "tag":"hcicmd",
+        "patterns": ["how can i clear my dues from college"],
+        "responses": ["Departmental LMS coordinator will clear dues from college. "]
+      },
+      {
+        "tag":"hcigmdc",
+        "patterns": ["how can i get my departmental clearance on LMS from college"],
+        "responses": ["Departmental LMS coordinator will make  LMS clearance from college. "]
+      },
+      {
+        "tag":"cuptmtw",
+        "patterns": ["Could you please tell me the way to admin block","where is admin block"],
+        "responses": ["when you enter from main gate first block at left is admin block"]
+      },
+      {
+        "tag":"pclbbl",
+        "patterns": ["what is the procedure to use central library?","how i can borrow books from library","How can we use central library?"],
+        "responses": ["Library will issue library card then you can use."]
+      },
+      {
+        "tag":"wwwafd",
+        "patterns": ["Where we will apply for duplicate degree?"],
+        "responses": ["Apply in Examinations Branch , duplicate degree is issue within 10 days"]
+      },
+      {
+        "tag":"iwdddmh",
+        "patterns": ["In how many days duplicate degree will issue? "],
+        "responses": ["Duplicate degree is issue within 10 days."]
+      },
+      {
+        "tag":"ddgptr",
+        "patterns": ["What is procedure to get duplicate degree?"],
+        "responses": ["In case the original degree is lost, duplicate degree can be issued, procedure is given below:\n1)\tAttach DMC/degree form, get it signed from students' section\n2)\tAttach challan of Rs. 1000/- online Challan from LMS account can be generated or bank deposit slip can be used. \n3)\tAttach 1 passport size picture.\n4)\tAttach copy of provisional Certificate.\n5)\tAttach matric/O level certificate copy.\n6)\tAttach original report of police station for the loss of degree, report must contain your name,  father name and registration number.\n7)\tAttach stamp paper of Rs. 50 and write on it your name, father name, registration number, and statement  that if original degree is found at any stage you will return original degree to examinations branch of university.\n8)\t Attach ad in any reputable newspaper for the loss of your degree, ad must contain your name,  father name and registration number\n9)\tAttach copy of Thesis notification (for postgraduate students only)\n Apply in Examinations Branch window number 1, duplicate degree is issue within 10 days"]
+      },
+      {
+        "tag":"qqqqqq",
+        "patterns": ["What documents are required for duplicate degree?"],
+        "responses": ["In case the original degree is lost, duplicate degree can be issued, procedure is given below:\n1)\tAttach DMC/degree form, get it signed from students' section\n2)\tAttach challan of Rs. 1000/- online Challan from LMS account can be generated or bank deposit slip can be used. \n3)\tAttach 1 passport size picture.\n4)\tAttach copy of provisional Certificate.\n5)\tAttach matric/O level certificate copy.\n6)\tAttach original report of police station for the loss of degree, report must contain your name,  father name and registration number.\n7)\tAttach stamp paper of Rs. 50 and write on it your name, father name, registration number, and statement  that if original degree is found at any stage you will return original degree to examinations branch of university.\n8)\t Attach ad in any reputable newspaper for the loss of your degree, ad must contain your name,  father name and registration number\n9)\tAttach copy of Thesis notification (for postgraduate students only)\n Apply in Examinations Branch window number 1, duplicate degree is issue within 10 days"]
+      },
+      {
+        "tag":"vvvvv",
+        "patterns": ["What should be written on police report, newspaper ad for duplicate degree?"],
+        "responses": ["Attach original report of police station for the loss of degree, report must contain your name,  father name and registration number."]
+      },
+      {
+        "tag":"pdnvn",
+        "patterns": ["In how many days I can get duplicate degree?"],
+        "responses":[ "Duplicate degree is issue within 10 days."]
+      },
+      {
+        "tag":"jhsgds",
+        "patterns": ["What is minimum degree duration for undergraduate program/B.Sc program?"],
+        "responses": ["Minimum degree duration for undergraduate program/B.Sc program is 4 years."]
+      },
+      {
+        "tag":"onfgtd",
+        "patterns": ["What is minimum degree duration for postgraduate program/M.Sc./MPhil programs?"],
+        "responses": ["two years"]
+      },
+      {
+        "tag":"omfgj",
+        "patterns": ["What is minimum degree duration for PhD. programs?"],
+        "responses": ["Minimum degree duration for Ph.D. program is 3 years."]
+      },
+      {
+        "tag":"awsfg",
+        "patterns": ["What is minimum degree duration for MBA programs?"],
+        "responses": ["Chart is given on prospectus."]
+      },
+      {
+        "tag":"mxdegdubd",
+        "patterns": ["What is Maximum degree duration for undergraduate program/B.Sc programs."],
+        "responses": ["Maximum degree duration for under  undergraduate program/B.Sc programs is 6 years."]
+      },
+      {
+        "tag":"mazdegdur",
+        "patterns": ["What is Maximum degree duration for postgraduate program/M.Sc./MPhil program?"],
+        "responses": ["Chart is given on prospectus. "]
+      },
+      {
+        "tag":"mxdegdurph",
+        "patterns": ["What is Maximum degree duration for Ph.D. program?"],
+        "responses": ["Maximum degree duration for Ph.D. programs is 7 years. "]
+      },
+      {
+        "tag":"pmmdd",
+        "patterns":[ "What is Maximum degree duration for MBA programs?"],
+        "responses": ["Chart is given on prospectus. "]
+      },
+      {
+        "tag":"cigpmf",
+        "patterns": ["Can I get degree without paying all outstanding dues?"],
+        "responses": ["No. "]
+      },
+      {
+        "tag":"roctti",
+        "patterns":[ "How many days will it take to confirm our result ?"],
+        "responses": ["Your result will be confirmed upon submission of result by your teachers via online and in hard form in Examinations Branch. "]
+      },
+      {
+        "tag":"mrsisp",
+        "patterns": ["My result status is still provisional, who will confirm it?"],
+        "responses": ["Your result will be confirmed upon submission of result by your teachers via online and in hard form in Examinations Branch."]
+      },
+      {
+        "tag":"ticmccC",
+        "patterns": ["There is come mistake in counting/computation of my CGPA, who will correct it?"],
+        "responses": ["In case of any issue regarding computation of GPA/CGPA, contact Examinations Branch ."]
+      },
+      {
+        "tag":"counting_credit_hours_mistake",
+        "patterns": ["There is some mistake in counting of my credit hours, who will correct it?","counting mistake of my credit hours"],
+        "responses": ["In case of any issue regarding credit hours, contact Examinations Branch "]
+      },
+      {
+        "tag":"pass_postgrtmsc",
+        "patterns": ["What is minimum CGPA required to pass the postgraduate/M.Sc./MS/M.Phil. degree?"],
+        "responses": ["Minimum 2.500 CGPA is required to pass postgraduate/M.Sc./MS/M.Phil. degree. "]
+      },
+      {
+        "tag":"cGpaph.d",
+        "patterns": ["What is minimum CGPA required to pass the Ph.D. degree?"],
+        "responses": ["Minimum 3.300 CGPA is required to pass Ph.D. degree. "]
+      },
+      {
+        "tag":"wfgctcwwg",
+        "patterns": ["Will WF grade be counted towards CGPA?","Will W grade be counted towards CGPA?","I grade impact on CGPA"],
+        "responses": ["W,F & I grade students will be droped out from university"]
+      },
+      {
+        "tag":"auawsair",
+        "patterns": ["What is minimum attendance required in a subject?","what is the attendance requirement in UOH "],
+        "responses": ["Minimum 75% attendance is required in a subject to attend exam."]
+      },
+      {
+        "tag":"osadtg",
+        "patterns": ["Will my approved leave be counted towards shortage of attendance?"],
+        "responses": ["Approved leave is not counted towards shortage of attendance."]
+      },                     
+      {
+        "tag":"lms_removed",
+        "patterns": ["My registered subjects have been removed from LMS due to nonpayment of dues, how can I register again after payment of dues?"],
+        "responses": ["In case your subjects have removed due to nonpayment of dues, contact Examinations Branch."]
+      },
+      {
+        "tag":"prerequisite",
+        "patterns": ["I have cleared pre-requisite subject; can I register in advanced subject?"],
+        "responses": ["In case a student has passed pre-requisite, then he can register in advanced subject."]
+      },
+      {
+        "tag":"sadtr",
+        "patterns": ["What is rule to drop a subject?"],
+        "responses": ["Subject registration is usually opened on the 1st day of semester start and continues for 2 weeks, students can add/drop courses during this period."]
+      },
+      {
+        "tag":"sradcv",
+        "patterns": ["How I can drop any regesterd subject?"],
+        "responses": ["Subject registration is usually opened on the 1st day of semester start and continues for 2 weeks, students can add/drop courses during this period."]
+      },
+      {
+        "tag":"a",
+        "patterns": ["How many days it will take to get percentage equivalence certificate?"],
+        "responses": ["It takes 3 working days to prepare percentage equivalence certificate. "]
+      },
+      {
+        "tag":"b",
+        "patterns": ["I have been re-admitted, how to get new LMS username and password?"],
+        "responses": ["After re-admission, get your new username and password from Examinations Branch by showing your re-admission letter."]
+      },
+      {
+        "tag":"c",
+        "patterns": ["Who is the authority to grant extension?"],
+        "responses": ["Convener Admission Committee is the authority to grant extension."]
+      },
+      {
+        "tag":"d",
+        "patterns": ["How much extension can I get at one time?"],
+        "responses": ["You can get maximum 1-year extension at a time."]
+      },
+      {
+        "tag":"e",
+        "patterns": ["Will my admission be cancelled If I don't get further extension?"],
+        "responses": ["If you don't get further extension, your admission will be cancelled. "]
+      },
+      {
+        "tag":"f",
+        "patterns": ["Will I be granted second time extension ?"],
+        "responses": ["Second time extension may be granted if approved by concerned authorities."]
+      },
+      {
+        "tag":"g",
+        "patterns": ["What are credit hours requirements for undergraduate/B.Sc degree programs?"],
+        "responses": ["Minim of 130 and Maximum 136 credit hours are required for the award of undergraduate degree as prescribed for every degree program."]
+      },
+      {
+        "tag":"h",
+        "patterns": ["What are credit hours requirements for postgraduate/M.Sc./M. Phil degree programs?"],
+        "responses": ["30 credit hours are required for the award  of /M.Sc./M. Phil degree programs, either 24 credit hours of course work with thesis of 6 credit hours or 30 credit hours of course work with design project of 0 credit hours."]
+      },
+      {
+        "tag":"i",
+        "patterns": ["What are credit hours requirements for PhD degree programs? "],
+        "responses": ["60 credit hours are required for the award of PhD/Doctor of Philosophy degree program, 18 credit hours of course work and 42 credit hours for thesis."]
+      },
+      {
+        "tag":"j",
+        "patterns": ["How can I get my degree/DMC verified?","how to verify degree","what is the method to verify degree"],
+        "responses": ["Student can apply for degree/DMC verification in Examinations Branch. \na)\tAttach DMC form\nb)\tAttach Challan for Rs. 500/- per document\nc)\tAttach copy of DMC"]
+      },
+      {
+        "tag":"k",
+        "patterns": ["What is fee for degree/DMC verification?"],
+        "responses": ["Fee for degree/DMC verification is Rs. 500/-"]
+      },
+      {
+        "tag":"l",
+        "patterns": ["How to pay fee?"],
+        "responses": ["Print Challan from LMS account , submit fee in Nation Or Khyeber bank inside university ,bank will give you slip sign this from provost and respective dept HOD"]
+      },
+      {
+        "tag":"m",
+        "patterns": ["If there is change in my name or father name, then how can I get revised degree/DMC?"],
+        "responses": ["Before getting final DMC, you can get your name/father name corrected from Examinations Branch by showing original matric certificate, but after getting final DMC/degree, get your name/father name corrected on matric and intermediate and then from students section of UOH, in the end you can contact examinations branch ."]
+      },
+      {
+        "tag":"n",
+        "patterns": ["How many days it will take to verify my degree/DMC?"],
+        "responses": ["Usually 3 days are required for degree/DMC verification."]
+      },
+      {
+        "tag":"o",
+        "patterns": ["How can a company/Institution send degree/DMC for verification?"],
+        "responses": ["A company/Institution can get degree/DMC verified by sending a letter to the University on their letter head. They need to pay fee of Rs. 1000/- per document as verification fee."]
+      },
+      {
+        "tag":"p",
+        "patterns": ["How can I get my degree/DMC verified from abroad?"],
+        "responses":[ "Degree/DMC copy can be verified from abroad by sending an email at examination@uoh.edu.pk with fee of US $ 50 per document.\nThe documents will be verified after receiving fee acknowledgement."]
+      },
+      {
+        "tag":"q",
+        "patterns": ["How to send verified degree/DMC to any university/institution abroad in a sealed envelope directly by ?"],
+        "responses": ["Apply in Examinations Branch and get your documents sealed in official envelop. "]
+      },
+      {
+        "tag":"r",
+        "patterns": ["When convocation is being held this year?"],
+        "responses": ["There is not fixed time for convocation ceremony. However, can be arrange by depatment (student) itself."]
+      },
+      {
+        "tag":"s",
+        "patterns": ["Who can attend convocation?"],
+        "responses": ["Graduating students can attend convocation. The details are advertised before commencement of convocation."]
+      },
+      {
+        "tag":"t",
+        "patterns": ["From where I can get entry pass for convocation?","how to attend convocation"],
+        "responses": ["Entry pass can be obtained from concerned department one day before convocation."]
+      },
+      {
+        "tag":"u",
+        "patterns": ["Who can provide me LMS password?"],
+        "responses": ["You can contact your department LMS coordinator to change/reset your password."]
+      },
+      {
+        "tag":"v",
+        "patterns": ["My LMS account is not logging in?"],
+        "responses": ["You can contact your department LMS coordinator to change/reset your password."]
+      },
+      {
+        "tag":"w",
+        "patterns": ["Who will clear my dues from college?","Who will make my departmental LMS clearance from college?"],
+        "responses": ["Departmental LMS coordinator will clear dues from college. "]
+      },
+      {
+        "tag":"x",
+        "patterns": ["Is University transportation facility available? ","does uoh gives transportation facility?"],
+        "responses": ["Yes. University provide transportation facility.for futher info contact your dept"]
+      },
+      {
+        "tag":"y",
+        "patterns": ["Can we unregister to register subject?"],
+        "responses": ["Yes, you can."]
+      },
+      {
+        "tag":"z",
+        "patterns": ["Can we migrate from UOH? "],
+        "responses": ["Yes"]
+      },
+      {
+        "tag":"aa",
+        "patterns": ["Can I choose my supervisor myself?"],
+        "responses": ["Yes, you can but it's advise to the supervisor from project field."]
+      },
+      {
+        "tag":"bb",
+        "patterns":[ "Will we pay fee if we freeze to semester?"],
+        "responses":[ "No, you don't need to pay fee after freezing"]
+      },
+      {
+        "tag":"cc",
+        "patterns": ["Can we complete degree without thesis? "],
+        "responses": ["No"]
+      },
+      {
+        "tag":"dd",
+        "patterns": ["Can we take additional courses instead of thesis? "],
+        "responses": ["No"]
+      },
+      {
+        "tag":"ee",
+        "patterns": ["How we can change our supervisor? "],
+        "responses": ["Write a handwritten application to HOD. "]
+      },
+      {
+        "tag":"ff",
+        "patterns": ["Who is chairperson of IT department?"],
+        "responses": ["At present (2021) the chairperson of IT department is Prof. Dr. Mukhtaj Khan "]
+      },
+      {
+        "tag":"gg",
+        "patterns": ["Is CS and SE separate departments?"],
+        "responses": ["NO , at UOH these both are parts of IT dept"]
+      },
+      {
+        "tag":"hh",
+        "patterns": ["Can I use UOH transport without paying?"],
+        "responses": ["NO"]
+      },
+      {
+        "tag":"ii",
+        "patterns": ["Can clearance process do any other person?"],
+        "responses": ["APROXIMATELHY NOT"]
+      },
+      {
+        "tag":"jj",
+        "patterns": ["Can my degree receive any person without me?"],
+        "responses": ["Yes, but with authority latter"]
+      },
+      {
+        "tag":"kk",
+        "patterns": ["Does anyone can use research lab?"],
+        "responses": ["Just Ph.D. and MS Researchers "]
+      },
+      
+      {
+        "tag":"ll",
+        "patterns": ["Is uoh university of haripur a Government. institution? ","is UOH is government university"],
+        "responses": ["Yes, UOH is Government university run by KP govt "]
+      },
+      {
+        "tag":"mm",
+        "patterns": ["Where we can contact to resolve LMS problems?"],
+        "responses": ["Department LMS coordinator or Visit to Examination branch. "]
+      },
+      {
+        "tag":"nn",
+        "patterns": ["What stands for LMS?"],
+        "responses": ["Learning Management Systems"]
+      },
+      {
+        "tag":"oo",
+        "patterns": ["How can we register maximum subjects in MS?"],
+        "responses": ["You can register only 3 subjects of 9 credits hours."]
+      },
+      {
+        "tag":"docDMClist",
+        "patterns": ["List the documents needed for DMC?","which documents are required for DMC"],
+        "responses":[ "Attach following documents:-\na)\tDMC form\nb)\tCNIC copy\nc)\tOriginal challan for final DMC fee of Rs. 1000/- online Challan from LMS account can be generated or bank deposit slip can be used.\nd)\tOriginal challan of 1st Installment of Rs. 10,000/-  if payable loan is mentioned on dues clearance slip, only bank deposit slip can be used.\ne)\tDegree Requirement Completion Form duly signed and stamped by Chairperson\nf)\tOne Passport size picture\ng)\tLibrary and Dues clearance copy\nh)\tMatric/O level certificate copy (for foreigners attach passport copy + IBCC)\ni)\tThesis notification copy for Postgraduate students only"]
+      },
+      {
+        "tag":"pp",
+        "patterns": ["How many minimum subjects can we register in MS? "],
+        "responses": ["You can register minimum ONE subject. "]
+      },
+      {
+        "tag":"qq",
+        "patterns":["Where is ATM in UOH "],
+        "responses": ["Near National Bank UOH branch"]
+      },
+      {
+        "tag":"rr",
+        "patterns": ["How we can use  Library?"],
+        "responses": ["After issuing Library Card"]
+      },
+      {
+        "tag":"ss",
+        "patterns": ["How our registration number and sections are allocated? "],
+        "responses": ["According the policy of dept."]
+      },
+      {
+        "tag":"tt",
+        "patterns": ["Is it compulsory to submit original documents during admission? "],
+        "responses": ["NO"]
+      },
+      {
+        "tag":"uu",
+        "patterns": ["Can we avail any help from UOH dispensary? "],
+        "responses": ["Yes"]
+      },
+      {
+        "tag":"vv",
+        "patterns": ["How many campuses of UOH?"],
+        "responses": ["UOH does not have campus till 2021"]
+      },
+      {
+        "tag":"ww",
+        "patterns": ["How many departments at UOH? ","departments offered by UOH","subjects offered by UOH ","Which degrees are being offered by University of haripur?"],
+        "responses": ["1.\tFaculty of Social and Administrative Sciences \ni. \tDepartment of Economics . \nii.\tDepartment of Education \niii.\t Department of Islamic and Religious Studies \niv.\tDepartment of Management Sciences  \nv.\tDepartment of Psychology  \n 2.\tFaculty of Basic and Applied Sciences. \n \tDepartment of Agriculture Sciences\n \tDepartment of history & Education\n \tDepartment of Islamic and religious studies\n \tDepartment of Environmental Sciences\n \tDepartment of Forestry and Wildlife Management\n \tDepartment of Linguistics\n \tDepartment of Geology\n \tDepartment of Information Technology\n \tDepartment of Medical Lab Technology\n \tDepartment of Microbiology\n \tDepartment of Public Health\n \tDepartment of Agronomy\n \tDepartment of Entomology\n \tDepartment of Pure and Applied Mathematics\n \tDepartment of Food Science and Technology"]
+      },
+      {
+        "tag":"xx",
+        "patterns": ["in which subject i can do ms/masters from uoh","master subjects/programs in uoh","which subjects uoh offers for ms/masgters"],
+        "responses": [" UOH offers MS in: \nMBA\nMCS (Computer Science)\nMSc Economics\nMSc Environmental Sciences\nMSc Agriculture Sciences\nMEd (Education)\nMSc Psychology\nMSc Medical Lab Technology (Diagnostic and Research Center)\nMSc Microbiology\nMSc Public Health"]
+      },
+      {
+        "tag":"yy",
+        "patterns":["which subject UOh offer for BS (4 years) program","Bs dapartments in UOH"],
+        "responses":["BS Accounting and Finance\nBS Computer Science\nBS Software Engineering\nBS Artificial intelligence\nBS Data Science (to be inaugurated soon)\n BS Telecom and networking\n BS Economics\n BS Environmental Science\n BS Education\n BS Psychology\n BS Medical Lab Technology (Diagnostic and Research Center)\n BS Geology\n BS Forestry and Wild life\n BS Physics\n BS Food science\n BS health and physical education\n BS Biochemistry\n BS Botany\n BS zoology\n BS Public Health"]
+      },
+      {
+        "tag":"zz",
+        "patterns": ["in which subject i can do phd/Ph.d from uoh","Phd/ph.d subjects/programs in uoh","which subjects uoh offers for Ph.D"],
+        "responses": [" UOH offers Ph.D in: \nMPhil and PhD (Environmental Sciences)\nMPhil and PhD (Microbiology) \nMPhil and PhD (information technology)\nPhD (Agricultural Sciences; i.e. Agronomy, Entomology, Food Science and Technology, Horticulture, Plant Breeding and Genetics (PBG), Soil and Environmental Sciences)\nMPhil and PhD (Education)\nMPhil (Forestry and Wild Life)\nMPhil (Islamic and Religious Studies)"]
+      },
+      {
+        "tag":"aaa",
+        "patterns": ["What are the grading Criteria", " rule of grading "," how grading occur?","grading policy"],
+        "responses":[ "90 & above is A+ \n85-89 is A \n80-84 is A-\n75-79 is B+ 3.5-3.9 GPA\n73-74 is B\n70-72 is B-\n66-69 is C+\n60-65 is C \n50-59 is D \nbelow 50% is F,I & W"]
+      },
+      {
+        "tag":"bbb",
+        "patterns": ["What are grade points (GP) for A+ grade?","A+ GPA"],
+        "responses": ["Grade Points (GPA) for A+ grade is 4.0"]
+      },
+      {
+        "tag":"ccc",
+        "patterns": ["What are grade points (GP) for A grade?","A grade GPA"],
+        "responses": ["Grade Points (GPA) for A grade is 4.0"]
+      },
+      {
+        "tag":"ddd",
+        "patterns": ["What are grade points (GP) for A- grade?","A- Grade gpa"],
+        "responses": ["Grade Points (GPAA) for A  grade is 4.00"]
+      },
+      {
+        "tag":"eee",
+        "patterns": ["What are grade points (GP) for B+ grade?","B+ grade gpa"],
+        "responses": ["Grade Points (GPA) for B+ grade is 3.5-3.9"]
+      },
+      {
+        "tag":"fff",
+        "patterns": ["What are grade points (GP) for B grade?","garde b gpa"],
+        "responses": ["Grade Points (GPA) for B grade is 3.3-3.4"]
+      },
+      {
+        "tag":"ggg",
+        "patterns": ["What are grade points (GP) for B- grade?","garde b- gpa"],
+        "responses": ["Grade Points (GPA) for B- grade is 3.00-3.3"]
+      },
+      {
+        "tag":"hhh",
+        "patterns": [" What are grade points (GP) for C+ grade?","garde c+ gpa"],
+        "responses": ["Grade Points (GP) for  C+ grade is 2.6-2.9"]
+      },
+      {
+        "tag":"jjj",
+        "patterns": ["What are grade points (GP) for C grade?","garde c gpa"],
+        "responses": ["Grade Points (GPA) for C grade is 2.3-2.5"]
+      },
+      {
+        "tag":"kkk",
+        "patterns": ["What are grade points (GP) for C- grade?","garde c- gpa"],
+        "responses": ["Grade Points (GPA) for C- grade is 2,00-2.2"]
+      },
+      {
+        "tag":"lll",
+        "patterns": ["What are grade points (GP) for D grade?","garde D gpa"],
+        "responses": ["Grade Points (GPA) for D grade  is 1.00-1.9"]
+      },
+      {
+        "tag":"mmm",
+        "patterns":["How to apply for Hostel Allotment?","How to pay the Hostel Fee?","How much Fee for Hostel Allotment?","Who is not eligible for Hostel allotment?"],
+        "responses": ["University of Haripur does't have internal hostel","University of Haripur does't have hostel facility"]
+      },
+      {
+        "tag":"nnn",
+        "patterns": ["What is the mission statement of  UOH/haripur university?","mission of university of haripur/UOH?"],
+        "responses": ["To achieve and maintain high standards in every sphere of academics and promote an open collaborative and novel culture of scientific inquiry to improve the lives and livelihoods of the people through sustainable development."]
+      },
+      {
+        "tag":"ooo",
+        "patterns": ["What is the vision statement of uoh?","vision of uoh","can you tell me the vision of uoh"],
+        "responses": ["The University of Haripur envisions a research based quality conscious, demand driven future to acquire excellence in diverse fields to restore hope and build community at large."]
+      },
+      {
+        "tag":"ppp",
+        "patterns": ["What is contact number of vc/ vice chancellor?"],
+        "responses": ["Contact no of Voice Chancellor is : +92-995-615393"]
+      },
+      {
+        "tag":"qqq",
+        "patterns": ["What is email id of vc/vice chancellor?"],
+        "responses": ["Email ID of Voice Chancellor is : vc@uoh.edu.pk"]
+      },
+      {
+       "tag":"rrr",
+       "patterns":["HOD / head of department of Department of Agricultural Sciences"],
+       "responses":["Head of Department of Agricultural Sciences is Prof. Dr. Ayub Khan"]
+      },
+      {
+        "tag":"sss",
+        "patterns":["HOD / head of department of Department of Education"],
+        "responses":["Head of Department of Education is  Dr. Afzal Shah"]
+       },
+       {
+        "tag":"ttt",
+        "patterns":["HOD / head of department of Department of Economics "],
+        "responses":["Head of Department of Economics is Dr. Muhammad Azhar Khan"]
+       },
+       {
+        "tag":"uuu",
+        "patterns":["HOD / head of department of Department of Environmental Sciences "],
+        "responses":["Head of Department of Environmental Sciences is Dr. Azhar Rashid"]
+       },
+       {
+        "tag":"vvv",
+        "patterns":["HOD / head of department of Department of Forestry & Wild Life "],
+        "responses":["Head of Department of Forestry & Wild Life is Dr. Syed Moazzam Nizami"]
+       },
+      { 
+        "tag":"www",
+        "patterns":["HOD / head of department of Department of Earth Sciences"],
+        "responses":["Head of Department of Earth Sciences is Dr. Javed Iqbal"]
+      },
+      {
+        "tag":"xxx",
+        "patterns":["HOD / head of department of Department of IT/ Information Technology"],
+        "responses":["Head of Department of Information Technology is Dr. Mukhtaj Khan"]
+       },
+       {
+        "tag":"yyy",
+        "patterns":["HOD  head of department of Department of Islamic & Religious Studies"],
+        "responses":["Head of Department of Islamic & Religious Studies is Dr. Junaid Akbar"]
+       },
+       {
+        "tag":"zzz",
+        "patterns":["HOD  head of department of Department of Management Sciences "],
+        "responses":["Head of Department of Management Sciences is Dr. Abdual Majid"]
+       },
+       {
+        "tag":"aaaa",
+        "patterns":["HOD   head of department of Department of mlt  Medical Lab Technology"],
+        "responses":["Head of Department of Medical Lab Technology is Dr.Sadiq Noor Khan"]
+       },
+       {
+        "tag":"bbbb",
+        "patterns":["HOD   head of department of Department of Microbiology"],
+        "responses":["Head of Department of Microbiology is Dr. Sobia Nisa"]
+       },
+       {
+        "tag":"cccc",
+        "patterns":["HOD   head of department of Department of Psychology"],
+        "responses":["Head of Department of Psychology is Dr. Amara Gul"]
+       },
+       {
+        "tag":"dddd",
+        "patterns":["HOD   head of department of Department of Public Health "],
+        "responses":["Head of Department of Public Health is Dr. Amjid Khan"]
+       },
+       {
+        "tag":"eeee",
+        "patterns":["HOD Department of Agricultural Sciences contact number no"],
+        "responses":["Agricultural Sciences  HOD : Phone No: +92-995-615272 Email Id : peerayub@uoh.edu.pk"] 
+       },
+       {
+        "tag":"ffff",
+        "patterns":["Department of Education HOD contact Number No"],
+        "responses":["Head of Department of Education Phone No :+92-995-615399 Email Id :afzalshah@uoh.edu.pk"]
+       },
+       {
+        "tag":"gggg",
+        "patterns":["HOD   head of department of Department of Economics Contact Number No email address id"],
+        "responses":["Department of Economics HOD Contact  Phone No :+92-995-614806 Email Id :azharkhan@uoh.edu.pk"]
+       },
+       {
+        "tag":"hhhh",
+        "patterns":["HOD   head of department of Department of Environmental Sciences Contact Number No email address id"],
+        "responses":["Head of Department of Environmental Sciences Contact  Phone No :+92-995-615515 Email Id :azhar.rashid@uoh.edu.pk "]
+       },
+       {
+        "tag":"iiii",
+        "patterns":["HOD   head of department of Department of Forestry & Wild Life Contact Number No email address id"],
+        "responses":["Head of Department of Forestry & Wild Life Contact  Phone No :+92-995-614164 Email Id :moazzam.nizami@uoh.edu.pk"]
+       },
+      { 
+        "tag":"jjjj",
+        "patterns":["HOD   head of department of Department of Earth Sciences Contact Number No email address id"],
+        "responses":["Head of Department of Earth Sciences Contact  Phone No :+92-995-615070 Email Id :javediqbalgeo@uoh.edu.pk"]
+      },
+      {
+        "tag":"kkkk",
+        "patterns":["HOD   head of department of Department of IT  Information Technology Contact Number No email address id"],
+        "responses":["Head of Department of Information Technology Contact Number > Phone No :+92-995-615395 Email Id :mukhtaj.khan@uoh.edu.pk"]
+       },
+       {
+        "tag":"llll",
+        "patterns":["HOD   head of department of Department of Islamic & Religious Studies Contact Number No email address id"],
+        "responses":["Head of Department of Islamic & Religious Studies Contact Number  > Phone No :+92-995-615382 Email Id :junaid.akbar@uoh.edu.pk"]
+       },
+       {
+        "tag":"mmmm",
+        "patterns":["HOD   head of department of Department of Management Sciences Contact Number No email address id"],
+        "responses":["Head of Department of Management Sciences is Contact Number  > Phone No :+92-995-627651 Email Id :abdulmajid@uoh.edu.pk"]
+       },
+       {
+        "tag":"nnnn",
+        "patterns":["HOD   head of department of Department of mlt  Medical Lab Technology Contact Number No email address id"],
+        "responses":["Head of Department of Medical Lab Technology Contact Number  > Phone No :+92-995-610513 Email Id :snkhan@uoh.edu.pk"]
+       },
+       {
+        "tag":"oooo",
+        "patterns":["HOD   head of department of Department of Microbiology Contact Number No email address id"],
+        "responses":["Head of Department of Microbiology Contact Number  > Phone No :+92-995-615075 Email Id :sobianisa_qau@yahoo.com"]
+       },
+       {
+        "tag":"pppp",
+        "patterns":["HOD   head of department of Department of Psychology Contact Number No email address id"],
+        "responses":["Head of Department of Psychology Contact Number  > Phone No :+92-995-613426 Email Id :amara.gul@uoh.edu.pk"]
+       },
+       {
+        "tag":"qqqq",
+        "patterns":["HOD   head of department of Department of Public Health Contact Number No email address id"],
+        "responses":["Head of Department of Public Health Contact Number  > Phone No :+92-995-615075 Email Id :dramjadkhan77@uoh.edu.pk"]
+       },
+       {
+        "tag":"rrrr",
+        "patterns":["what is provost office contact number no?","what is provost office email address id "],
+        "responses":["Phone No:+92-995-615391  , Eamil Id:zahoorahmad@uoh.edu.pk "]
+       },
+       {
+        "tag":"ssss",
+        "patterns":["what is examination office contact number no?","what is examination office email address id "],
+        "responses":["Phone No:+92-995-615305  , Eamil Id:coe@uoh.edu.pk "]
+       },
+       {
+        "tag":"tttt",
+        "patterns":["what is registrar office contact number no?","what is registrar office email address id "],
+        "responses":["Phone No:+92-995-615435  , Eamil Id:registrar@uoh.edu.pk "]
+       },
+       {
+        "tag":"uuuu",
+        "patterns":["complaint cell UOH ","suggestions"],
+        "responses":["On this link you can register complaint : http://www.uoh.edu.pk/complaints-suggestions#gsc.tab=0"]
+       },
+       {
+        "tag":"vvvv",
+        "patterns":["where i can check my result ", "how to check result"],
+        "responses":["You can check your results on notice boared as well as on LMS Student portal"]
+       },
+       {
+        "tag":"wwww",
+        "patterns":["uoh/ university of haripur address","where is university of haripur ","uoh   university of haripur location"],
+        "responses":["The University of Haripur Hattar Road Near Swat Chowk Haripur Khyber Pakhoonkhwa"]
+       },
+       {
+        "tag":"xxxx",
+        "patterns":["give me the hostel name near university","which hostel are available near university","hostels near university"],
+        "responses":["Iqbal hostel , Jinnah Hostel , Pakistan hostel and other samall hostel names pakiza hostel,friends hostel ,islamic hostel etc  "]
+       },
+       {
+        "tag":"yyyy",
+        "patterns":[" boys    girls University hostel"],
+        "responses":["University has no hostels available currently"]
+       },
+       {
+        "tag":"zzzz",
+        "patterns":["Give me detail about girls hostel","which girls hostel should i join  admit"],
+        "responses":["Sorry, i don't have info about this but you can ask someone on University road they can gives you more details"]
+       },
+       {
+        "tag":"ab",
+        "patterns":["how to connect to university wifi","i want to connect university internet","wifi","internet"],
+        "responses":["Take passward from internet office in micro department and they tell you procedure"]
+       },
+      {
+        "tag":"ac",
+        "patterns": ["Can I register more than one device on  with intenet?","i want to register more than one device on internet "],
+        "responses":["Yes. you can register"]
+      },
+      {
+        "tag":"ad",
+        "patterns": ["What is a range of wireless network?","how far can i connect to wifi"],
+        "responses": ["Approx 30 Meters.","It range about 30 meters"]
+      },
+      {
+        "tag":"ae",
+        "patterns": ["Can I access IEEE or digital library on this network?"],
+        "responses": ["Yes."]
+      },
+      {
+        "tag":"af",
+        "patterns": ["Why torrents are blocked?"],
+        "responses": ["To balance network traffic."]
+      },
+      {
+        "tag":"ag",
+        "patterns": ["Why YouTube is bloked on University network?","why facebook is not working in University","social media is blocked on university internet"],
+        "responses": ["The purpose of blocking all social media on university internet is to not waste the students time and fast internet for working."]
+      },
+      {
+        "tag":"ah",
+        "patterns": ["My social media in inaccessible at department, what wrong?"],
+        "responses": ["Because university blocked all social media on network .you can use socail media on personal internet."]
+      },
+      {
+        "tag":"ai",
+        "patterns": ["Why network speed is down?","why network speed is too slow"],
+        "responses": ["Network partially suspended."]
+      },
+      {
+        "tag":"aj",
+        "patterns": ["Can I host my application?"],
+        "responses":["Yes."] 
+      },
+      {
+        "tag":"ak",
+        "patterns": ["Can you provide me bootable OS in USB?"],
+        "responses": ["Yes.you can take from UOH computer lab"]
+      },
+      {
+        "tag":"al",
+        "patterns": ["What are credentials for Lab PC'S?"],
+        "responses": ["Your Registration Number and Password generated by System Administrator."]
+      },
+      {
+        "tag":"am",
+        "patterns": ["Can you provide me MATLAB 2018 registered version?"],
+        "responses": ["No, it would be trial version."]
+      },
+      {
+        "tag":"an",
+        "patterns": ["Can you help me to crack my classmate email account?"],
+        "responses": ["Not allowed."]
+      },
+      {
+        "tag":"ao",
+        "patterns": ["Can you hack my friend Facebook account?"],
+        "responses": ["It's a Crime, not allowed."]
+      },
+      {
+        "tag":"ap",
+        "patterns": ["can you please download a large list of movies for me?"],
+        "responses": ["I am not supossed to do this","Its not my domain"]
+      },
+      {
+        "tag":"aq",
+        "patterns": ["Where I can get projector?"],
+        "responses": ["Lecture Theaters from authorized person."]
+      },
+      {
+        "tag":"ar",
+        "patterns": ["Sir, 1st merit list is displayed yet?"],
+        "responses": ["Not sure, please see admission website."]
+      },
+      {
+        "tag":"as",
+        "patterns": "Where is ABC facility member?",
+        "responses": "Please check his  her timetable."
+      },
+      {
+        "tag":"at",
+        "patterns": ["Where is information technology chairperson office?"],
+        "responses": ["In IT faculty offices section on the left side first Office ."]
+      },
+      {
+        "tag":"au",
+        "patterns": ["Can you repair my machine?"],
+        "responses": ["No."]
+      },
+      {
+        "tag":"av",
+        "patterns": ["Can you recover my data?"],
+        "responses": ["No."]
+      },
+      {
+        "tag":"aw",
+        "patterns": ["My mobile or laptop has been stolen, can you track or trace?"],
+        "responses": ["No."]
+      },
+      {
+        "tag":"ax",
+        "patterns": ["What is our Network speed?"],
+        "responses": ["Dedicated and partially shared about 80MB."]
+      },
+      {
+        "tag":"ay",
+        "patterns": ["I need and high-profile system, when you can provide me?"],
+        "responses": ["Please see lab in-charge."]
+      },
+      {
+        "tag":"az",
+        "patterns": ["Do you have a central data share?"],
+        "responses": ["Yes."]
+      },
+      {
+        "tag":"aab",
+        "patterns": ["What are computer science machines in rank?"],
+        "responses": ["Servers of different flavors."]
+      },
+      {
+        "tag":"aac",
+        "patterns": ["Since how long your power backup system remain functional?"],
+        "responses": ["2-3 Hours Approximately."]
+      },
+      {
+        "tag":"aad",
+        "patterns": ["Can you please help me to review my code?"],
+        "responses": ["Please see your tutor."]
+      },
+      {
+        "tag":"aaf",
+        "patterns": ["What is specification of servers in computer science department?"],
+        "responses": ["Dell Power Series Server."]
+      },
+      {
+        "tag":"aag",
+        "patterns": [" What type of servers you have managed in CSE?"],
+        "responses": ["All educational and administrative purpose servers."]
+      },
+      {
+        "tag":"aah",
+        "patterns": ["Can you manage Labs for entry test exam?"],
+        "responses": ["Yes."]
+      },
+      {
+        "tag":"aai",
+        "patterns": ["Can you open or unlock CS lab for me?"],
+        "responses": ["Please see Lab Supervisor."]
+      },
+      {
+        "tag":"aaj",
+        "patterns": ["Projector is not functional, who can help?"],
+        "responses": ["Please see the administration office."]
+      },
+      {
+        "tag":"aak",
+        "patterns": ["I have forgot my LMS credentials? what's next?"],
+        "responses": ["Please approach CQI Cell."]
+      },
+      {
+        "tag":"aal",
+        "patterns": [" What are credentials  rules for smart university Wi-Fi connection"],
+        "responses": ["Provided as per list to authorized person."]
+      },
+      {
+        "tag":"aam",
+        "patterns": ["What is the Arrival time of the chairperson in her office or Department?"],
+        "responses": ["IT chairperson normally comes at 8:30am.  Sometimes he is busy in meeting with VC, lecture in class or meeting in outside the department."]
+      },
+      {
+        "tag":"aan",
+        "patterns":[ "Timetable inquiry"," where is timetable notice","where timetable notice is displayed?"],
+        "responses": ["Timetable is available on the notice board however we can inform about existence of rooms or labs"]
+      },
+      {
+        "tag":"aao",
+        "patterns": ["where is timetable notice?"],
+        "responses": ["Timetable is available on the notice board however we can inform about existence of rooms or labs"]
+      },
+      {
+        "tag":"aap",
+        "patterns":["How can meet to information technology chairperson?"],
+        "responses": ["Direct go to the office or Contact to PA office or can check timetable where is the class of chairperson?"]
+      },
+      {
+        "tag":"aaq",
+        "patterns": ["Dues and fee structure inquiry"],
+        "responses": ["Contact to due section in admin block  042-99029427."]
+      },
+      {
+        "tag":"aar",
+        "patterns": ["Teacher availability inquiry  when teachers are available?"],
+        "responses": ["Visit concerned teacher's office,  or check timetable to know where classroom  is located, or contact in the office of PA."]
+      },
+      {
+        "tag":"aas",
+        "patterns": ["Admission inquiry  Information related to admission"],
+        "responses": ["Contact in the PA office or contact to the 0308 8954234"]
+      },
+      {
+        "tag":"aat",
+        "patterns": ["All information about Scholarship","how to get scholarship","where we will apply for scholarship"," where will upload the lists of selected students for scholarship?"],
+        "responses": ["University will announce on official page for scholarship,then you should apply for scholarship then after interviews the selected students will be informed by displaying list on notice board"]
+      },
+      {
+        "tag":"aau",
+        "patterns": ["Contact number of financial Aid office Additional Director?"],
+        "responses": ["Financial Aid office Additional Director contact > Phone:+92-995-615339 Email Id:financialaid@uoh.edu.pk"]
+      },
+      {
+        "tag":"aav",
+        "patterns": ["Contact number of financial Aid office Assistant Director?"],
+        "responses": ["Financial Aid office Additional Director contact > Phone:+92-995-615339 Email Id:aybakkhan@uoh.edu.pk"]
+      },
+      {
+        "tag":"aaw",
+        "patterns": ["Where is financial Aid office?"],
+        "responses": ["Financial Aid office is located in Agriculture department"]
+      },
+      {
+        "tag":"aax",
+        "patterns": ["Disciplinary Action    information about disciplinary action?"],
+        "responses": ["This matter is related to the DAC(disciplinary action commette in admin block."]
+      },
+      {
+        "tag":"aay",
+        "patterns": ["Where is DSA office?"],
+        "responses": ["In admin block on ground floor"]
+      },
+      {
+        "tag":"aaz",
+        "patterns": ["Schedule of the academic calendar  information about academic calendar?"],
+        "responses": ["Contact to Examination Controller Sir Abid Ali In IT departemnt or check from UOH website"]
+      },
+      {
+        "tag":"ba",
+        "patterns": ["How to get Information about Security issues? "],
+        "responses": ["Contact to security office 042-99029400"]
+      },
+      {
+        "tag":"bc",
+        "patterns": ["Where is university dispensary ","Where is university clinin","Where is university health clinic?"],
+        "responses": ["university dispensary is located at the back of Admin block."]
+      },
+      {
+        "tag":"bd",
+        "patterns": ["What is contact number of health clinic? "],
+        "responses": ["Contact number of health clinic : 042-99029240"]
+      },
+      {
+        "tag":"be",
+        "patterns": ["What is procedure for clearance?","How to make clearance? ","How to apply for clearance?"],
+        "responses": ["Get Clearance Form from university stationary, take signatures from all mention departments before going to dues section."]
+      },
+      {
+        "tag":"bf",
+        "patterns": ["What documents are required for B.Sc    undergraduate    bachelors' clearance?"],
+        "responses": ["Clearance Form and all deposited Fee receipts (if missing on LMS)"]
+      },
+      {
+        "tag":"bg",
+        "patterns": ["What documents are required for M.Sc.   Postgraduate    Masters    Ph.D. clearance?"],
+        "responses": ["Clearance Form, Thesis Notification which is issued by the Examination branch."]
+      },
+      {
+        "tag":"bh",
+        "patterns": ["Where to apply for provisional certificate?"],
+        "responses": ["Contact Student Section (042-99029281-470"]
+      },
+      {
+        "tag":"bi",
+        "patterns": ["What documents are required for provisional certificate?","What is procedure to apply provisional certificate?"],
+        "responses": ["Application Form (Download form UOH Website or Get from Stationary), Rs.500  - Challan Generate from Student LMS and same deposited in national bank, Copy of Complete DMC, Original Clearance Slip which is got from Dues Section, One Recent Photograph."]
+      },
+      {
+        "tag":"bj",
+        "patterns": ["What is fee for provisional certificate?"],
+        "responses": ["Rs.500  -"]
+      },
+      {
+        "tag":"bk",
+        "patterns": ["When can I apply for provisional certificate?"],
+        "responses": ["After get Complete DMC"]
+      },
+      {
+        "tag":"bl",
+        "patterns": ["Where to submit application for provisional certificate?"],
+        "responses": ["Student Section."]
+      },
+      {
+        "tag":"bm",
+        "patterns": ["How can I cancel my admission?","How to apply for admission cancellation?"],
+        "responses": ["Get Clearance Form from Stationary, get signatures from all mention departments before going to dues section and also mention on clearance form how much semesters registered on lms from department coordinator. "]
+      },
+      {
+        "tag":"bn",
+        "patterns": ["How to freeze semester?"],
+        "responses": ["By the recommendation of The Chairman and Dean."]
+      },
+      {
+        "tag":"bo",
+        "patterns": ["Is there any fee for semester freeze?","Will I have to pay fee for semester freeze?"],
+        "responses": ["Yes! Rs.5000  - Challan get from Dues Section."]
+      },
+      {
+        "tag":"bp",
+        "patterns": ["Where to submit form for semester freeze?"],
+        "responses": ["Download prescribe form available at UOH website recommendation from Chairman and Dean."]
+      },
+      {
+        "tag":"bq",
+        "patterns": ["How to unfreeze semester?"],
+        "responses": ["Get letter from Student Section."]
+      },
+      {
+        "tag":"br",
+        "patterns": ["Where to get admission fee form?"],
+        "responses":[ "Student Login on LMS"]
+      },
+      {
+        "tag":"bs",
+        "patterns": ["How can I get admission fee form?"],
+        "responses": ["Admission fee Voucher will be available on student account when he will be applied for admission."]
+      },
+      {
+        "tag":"bt",
+        "patterns": ["I have lost my paid fee form, what can I do now?","I have lost my fee form; how can I update my dues?"],
+        "responses": ["Contact dues section."]
+      },
+      {
+        "tag":"bu",
+        "patterns": ["Is it compulsory to clear thesis within four semesters  2 years' duration?"],
+        "responses":[ "No"]
+      },
+      {
+        "tag":"bv",
+        "patterns": ["What are Maximum semester to clear thesis?"],
+        "responses": ["Eight Semester Degree Time period."]
+      },
+      {
+        "tag":"bw",
+        "patterns": ["What is account number to pay fee?"],
+        "responses": ["Fee Will be paid through LMS Challan where everything is mentioned on it."]
+      },
+      {
+        "tag":"bx",
+        "patterns": ["What is procedure to pay fee online?","Can I pay fee online?"],
+        "responses": ["You can't pay fee online"]
+      },
+      {
+        "tag":"by",
+        "patterns": ["In which bank I can pay fee?","Can I pay fee in any branch of HBL?","Can I pay fee in any bank?","where to pay fee"],
+        "responses": ["Only In Khyber and National Bank UOH branches"]
+      },
+      {
+        "tag":"bz",
+        "patterns": ["What is procedure for provisional certificate verification?"],
+        "responses": ["Pay Rs.500  - in NBP then Contact Student Section."]
+      },
+      {
+        "tag":"bba",
+        "patterns": ["What is procedure to apply for (No objection Certificate) NOC?","From Where to get form for (No objection Certificate) NOC?","How to apply for (No objection Certificate) NOC?"],
+        "responses": ["Download prescribe form available at UOH website or Buy from stationary shop and Pay Rs.2000  - in NBP Bank then Contact Student Section."]
+      },
+      {
+        "tag":"bbc",
+        "patterns": ["What is fee to  for apply (No objection Certificate)NOC?"],
+        "responses": ["Rs.2000  -"]
+      },
+      {
+        "tag":"bbd",
+        "patterns": ["Where to submit application for  (No objection Certificate) NOC?"],
+        "responses": ["Student Section."]
+      },
+      {
+        "tag":"bbf",
+        "patterns": ["From where I can get dues details?","How can I get my dues details?"],
+        "responses": ["You can See Your dues detail on Student LMS Account otherwise contact Dues Section for any Queries."]
+      },
+      {
+        "tag":"bbg",
+        "patterns": ["Can I pay fee in instalments?"],
+        "responses": ["No"]
+      },
+      {
+        "tag":"bbh",
+        "patterns": ["How can I refund my fee?","What is procedure for fee refund?"],
+        "responses": ["Only Those Student Can Apply for Fee Refund  who cancelled admission or complete their degrees and also have Negative Outstanding amount on their LMS Account by the verify of Dues Section."]
+      },
+      {
+        "tag":"bbi",
+        "patterns": ["Where to apply for fee refund?"],
+        "responses": ["Write Simple application to Convener Admission Committee for Dues Refund than Contact Dues Section."]
+      },
+      {
+        "tag":"bbj",
+        "patterns": ["In how many days can I apply for fee refund?","How much fee will be deducted for refund?","How much fee can be refunded?"],
+        "responses": ["Admission Cancellation by Freshly admitted students on the date of registration in University Classes: - \n(d)\tFull (100%) Fee refund if admission cancelled up to 8th day.\n(e)\tHalf (50%) Fee refund if admission Cancelled from 9th to 16th day.\n(f)\tNo fee refund if admission cancelled from 17th day onward. "]
+      },
+      {
+        "tag":"bbk",
+        "patterns": ["I have attended classes; can I apply for fee refund?","Can I apply for fee refund after attending classes?","i have attend classes for two weeks will the refund fee"],
+        "responses": ["After Attending 17th day of Student Registration, the refund only Securities."]
+      },
+      {
+        "tag":"bbl",
+        "patterns": ["What is procedure for security refund?","Where to get application form for fee refund?","Where to get form for security refund?"],
+        "responses": ["Only Write a Simple application to the Convener Admission Committee or provide a Copy of Clearance Form for Fee Refund to Dues Section."]
+      },
+      {
+        "tag":"bbm",
+        "patterns": ["How to apply for security refund?"],
+        "responses": ["Security refund Only in case of admission cancelled."]
+      },
+      {
+        "tag":"bbn",
+        "patterns": ["What documents are required for security refund?"],
+        "responses": ["Copy of Clearance Form."]
+      },
+      {
+        "tag":"bbo",
+        "patterns": ["What if I lost my challan?","Where to submit form for security refund?"],
+        "responses": ["Contact Dues Section."]
+      },
+      {
+        "tag":"bbp",
+        "patterns": ["How to apply for entry test?"],
+        "responses": ["You have to submit application by post or TCS or by hand at UOH for entry test"]
+      },
+      {
+        "tag":"bbq",
+        "patterns": ["What is website to apply for entry test?","where to apply for entry test"],
+        "responses": ["Log on to admission.uoh.edu.pk for admission at UOH, haripur but online apply available only durring COVID"]
+      },
+      {
+        "tag":"bbr",
+        "patterns": ["I have registered for entry test with my father ID card number, what can I do now?","I have registered for entry test with wrong ID card number. What can I do now?"],
+        "responses": ["Please contact Convener Officer UOH 042-99029452, 042-99029216 to correct your CNIC number"]
+      },
+      {
+        "tag":"bbs",
+        "patterns": ["I am not able to upload my picture what to do now? ","My picture is not uploading, what to do now?"],
+        "responses": ["Please make sure that your picture size is less than 1 MB and format of picture is jpg, jpeg and png. \nPicture must be 100 dpi."]
+      },
+      {
+        "tag":"bbt",
+        "patterns": ["In which format can I upload picture?","image format for uploading"],
+        "responses": ["format of picture is jpg, jpeg, png"]
+      },
+      {
+        "tag":"bbu",
+        "patterns": ["What is maximum size to upload picture image?"],
+        "responses": ["Maximum size of picture is 1 MB"]
+      },
+      {
+        "tag":"bbv",
+        "patterns": ["I want to change my entry test center"],
+        "responses": ["Change of Entry test centre is not allowed"]
+      },
+      {
+        "tag":"bbw",
+        "patterns": ["How can I change entry test center?"],
+        "responses": ["UOH conduct entry test inside university so, you can't change"]
+      },
+      {
+        "tag":"bbx",
+        "patterns": ["What documents are required to appear for entry test?"],
+        "responses": ["take the print of entry test slip and bring it on test day with any original document like( matric  first year result card  domicile  ID card) which have your picture on it"]
+      },
+      {
+        "tag":"bby",
+        "patterns": ["Can I appear without documents in entry test?"],
+        "responses": ["Print of entry test slip and any original document showing your picture is required to appear for entry test"]
+      },
+      {
+        "tag":"bbz",
+        "patterns": ["My result is wrong on UOH website, how to correct it?"],
+        "responses": ["Please contact Head Of Dapartment"]
+      },
+      {
+        "tag":"db",
+        "patterns": ["I want to check my entry test result, how can I check it?"],
+        "responses": ["To check your entry test online, visit UOH official site"]
+      },
+      {
+        "tag":"dc",
+        "patterns": ["What are minimum marks to pass entry test?","What are passing marks of entry test?"],
+        "responses": ["50% is the passing marks merit will be based on aggregate"]
+      },
+      {
+        "tag":"de",
+        "patterns": ["What documents are required to apply for admission?"],
+        "responses": ["Given on prospectus"]
+      },
+      {
+        "tag":"df",
+        "patterns": ["I don't have domicile at this time, can I apply for admission?"],
+        "responses": ["yes you can"]
+      },
+      {
+        "tag":"dg",
+        "patterns": ["How can I change my preference?"],
+        "responses": ["If your FSC marks and entry test  marks are according to the dapt requirments then you can change"]
+      },
+      {
+        "tag":"di",
+        "patterns": ["Can I change my preference after submission of form?"],
+        "responses": ["yes but before the displaying of last merit list after that it is not possible"]
+      },
+      {
+        "tag":"dh",
+        "patterns": ["How many preferences can I select?"],
+        "responses": ["max 3"]
+      },
+      {
+        "tag":"dj",
+        "patterns": ["Can I select multiple preferences?"],
+        "responses": ["yes you can select upto 3"]
+      },
+      {
+        "tag":"dk",
+        "patterns": ["I have selected wrong preference, can I change it?"],
+        "responses": ["yes, before merit list display you can"]
+      },
+      {
+        "tag":"dl",
+        "patterns": ["Can I send hard copies through courier?","Is it compulsory to submit hard copy  documents for admission?"],
+        "responses": ["Yes, Submission of hard copies and dues is compulsory within time limit, otherwise your name will not be considered"]
+      },
+      {
+        "tag":"dm",
+        "patterns": ["Can I send hard copies through post Dak  TCS etc.?", "Can I TCS hard copies?"],
+        "responses":[ "You can only submit hard copies by hand at UOH, not allowed through courier"]
+      },
+      {
+        "tag":"dn",
+        "patterns": ["Why My name did not appear in merit list?"],
+        "responses": ["You are low merit"]
+      },
+      {
+        "tag":"do",
+        "patterns": ["How many merit lists are prepared displayed at UOH?"],
+        "responses": ["majority of times two merit list will diplayed but if seats are available the 3rd"]
+      },
+      {
+        "tag":"dp",
+        "patterns": ["When first merit list will be displayed?"],
+        "responses":["In first week after the entry test"]
+      },
+      {
+        "tag":"dq",
+        "patterns": ["When second merit list will be displayed?"],
+        "responses": ["3 to 4 days after 1st merit list"]
+      },
+      {
+        "tag":"dr",
+        "patterns": ["When third merit list will be displayed?"],
+        "responses": ["3 to 4 days after 2nd merit list"]
+      },
+      {
+        "tag":"ds",
+        "patterns": ["How can I check merit list?","Where can I check merit list?"],
+        "responses": ["You can check your merit list at http://www.uoh.edu.pk/#gsc.tab=0"]
+      },
+      {
+        "tag":"dt",
+        "patterns": ["I want to take admission in lower preference, will my name be considered automatically in lower preference?","My name appeared in upper preference, I want to take admission in lower preference, will my name be considered in lower preference?"],
+        "responses": ["Downgrading will be allowed after 4th merit list"]
+      },
+      {
+        "tag":"du",
+        "patterns": ["Can I change my department?"],
+        "responses": ["yes you can change before commencement of classes"]
+      },
+      {
+        "tag":"dv",
+        "patterns": ["What is procedure to change preference?"],
+        "responses": ["System will allow to submit 2 prefernces after 4th merit list. This submission is online in admission website"]
+      },
+      {
+        "tag":"dw",
+        "patterns": ["Can I revert my preference ?"],
+        "responses": ["yes"]
+      },
+      {
+        "tag":"dx",
+        "patterns":[ "Can I move to my previous preference again?"],
+        "responses": ["Yes"]
+      },
+      {
+        "tag":"dy",
+        "patterns": ["If my name does not appear in new merit list after changing preference, will I be considered for previous preference?"],
+        "responses": ["Yes, he will be in previous discipline. Student just recheck his  her status from admission website"]
+      },
+      {
+        "tag":"dz",
+        "patterns": ["How many merit lists are displayed after changing the preference?"],
+        "responses": ["Final Status is displayed on admission.uoh.edu.pk where student can see his last status."]
+      },
+      {
+        "tag":"dda",
+        "patterns": ["Can I swap department?"],
+        "responses": ["This will be on authority decision. \nStudent will submit manually application to Student Section"]
+      },
+      {
+        "tag":"ddb",
+        "patterns": "Can I change department?",
+        "responses": "This will be on authority decision. \nStudent will submit manually application to Student Section"
+      },
+      {
+        "tag":"ddc",
+        "patterns": ["Can I pay admission fee in installments?"],
+        "responses": ["Payment of admission fee in installments is not allowed"]
+      },
+      {
+        "tag":"dde",
+        "patterns": ["Can I apply for migration at UOH?","is migration is possible at UOH university of haripur"],
+        "responses": ["yes its possible to migrate from UOH  ."]
+      },
+      {
+        "tag":"ddf",
+        "patterns": ["What is procedure for migration?"],
+        "responses": ["Migration form is available at UOH site. Terms and conditions are mention there."]
+      },
+      {
+        "tag":"ddg",
+        "patterns": ["What documents are required for migration?"],
+        "responses": ["See the from at UOH WEB SITE."]
+      },
+      {
+        "tag":"ddh",
+        "patterns": ["Is it compulsory to submit or deposit fee in university bank?"],
+        "responses": ["Yes."]
+      },
+      {
+        "tag":"ddi",
+        "patterns": ["Can we submit or deposit fee even we have missed any document?"],
+        "responses":[ "Yes."]
+      },
+      {
+        "tag":"ddj",
+        "patterns": ["How we can or will UpToDate to himself with new updates?"],
+        "responses": ["From UOH Admission Portal."]
+      },
+      {
+        "tag":"ddk",
+        "patterns": ["Can submit bay-form in replacement of NIC?"],
+        "responses": ["Yes"]
+      },
+      {
+        "tag":"ddl",
+        "patterns": ["what's if final transcript is late then we can apply for admission?"],
+        "responses": ["Yes, conditionally."]
+      },
+      {
+        "tag":"ddm",
+        "patterns": ["Where we will submit documents to apply for admission?"],
+        "responses": ["In the respective department for postgraduate and for undergraduate in the students section"]
+      },
+      {
+        "tag":"ddn",
+        "patterns": ["What is the procedure after if admission is finalized?"],
+        "responses": ["Submit required documents in the student's section, then go to department and get registration number."]
+      },
+      {
+        "tag":"ddo",
+        "patterns": ["Where we will submit documents after admission?"],
+        "responses": ["In the student's section."]
+      },
+      {
+        "tag":"ddp",
+        "patterns": ["Can we see past papers against any subjects on anywhere"] ,
+        "responses": ["No"]
+      },
+      {
+        "tag":"ddq",
+        "patterns": ["Is it compulsory to submit documents in hard form?"],
+        "responses": ["Yes"]
+      },
+      {
+        "tag":"ddr",
+        "patterns": ["Can we submit documents online?"],
+        "responses": ["No"]
+      },
+      {
+        "tag":"dds",
+        "patterns": ["What is the admission process?"],
+        "responses": ["See the Admission Portal UOH website."]
+      },
+      {
+        "tag":"ddt",
+        "patterns": ["What is ruled to pass degree with honor? "],
+        "responses": ["Minimum of 3.7 CGPA having no F, WF, W grade"]
+      },
+      {
+        "tag":"ddu",
+        "patterns": ["What is rule for grade change before declaration of result? "],
+        "responses": ["Contact to concerned teacher.","Apply on grade change form with genuine reason, request will be approved through teacher, Chairman and Dean."]
+      },
+      {
+        "tag":"ddv",
+        "patterns": ["What is rule for transfer of credits for migrated students?"],
+        "responses": ["Minimum of 40% marks or C grade . "]
+      },
+      {
+        "tag":"ddw",
+        "patterns": ["What is rule for transfer of credits for double degree program?"],
+        "responses": ["Minimum of 40% marks or C grade. "]
+      },
+      {
+        "tag":"ddx",
+        "patterns": ["What if my attendance is short in subject?"],
+        "responses":[ "In case of attendance being less than 75%, However student can apply for 10% relaxation to Dean to allow attendance till 65% and relaxation given to pregnant students"]
+      },
+      {
+        "tag":"ddw",
+        "patterns": ["What is rule for merit certificate?"],
+        "responses": ["Student should be from top 5% of the class having degree with honors with other conditions. "]
+      },
+      {
+        "tag":"ddy",
+        "patterns": ["What is rule for medals?","What is minimum CGPA required to qualify for medal?"],
+        "responses": ["University of Haripur does not give medals"]
+      },
+      {
+        "tag":"ddz",
+        "patterns": ["What is minimum CGPA required for Deans Honors role certificate?"],
+        "responses": ["Minimum of 3.7 GPA in a semester. "]
+      },
+      {
+        "tag":"ea",
+        "patterns": ["Will exchange programs courses get credits transferred to UOH.?"],
+        "responses": ["Yes, if department gives written permission, transferred subject's contents should match the subject taught at UOH. "]
+      },
+      {
+        "tag":"eb",
+        "patterns": ["What are minimum marks required to transferred credits to UOH for exchange programs?"],
+        "responses": ["Department decides. "]
+      },
+      {
+        "tag":"ec",
+        "patterns": ["Is there any way to register more than allowed credit hours?"],
+        "responses": ["No. "]
+      },
+      {
+        "tag":"ed",
+        "patterns": ["What is rule for re-admission?"],
+        "responses": ["Undergraduate students can get re-admission if they fail to maintain minimum 2.000 CGPA, if postgraduate students don't complete their degree within prescribed time period, they may get re-admission within 5 years. Their passed subjects will be transferred."]
+      },
+      {
+        "tag":"ef",
+        "patterns": ["After how many years' convocation is held?","Who leads to convocation?"],
+        "responses":[ "UOH does not give convocation if student wants they can arrange marriage hall somewhere out of university."]
+      },
+      {
+        "tag":"eg",
+        "patterns": ["Will our credit hours accommodate if we migrate?"],
+        "responses": ["Yes. "]
+      },
+      {
+        "tag":"eh",
+        "patterns": ["How many maximum credit hours we can register in MS first semester?","Can we register more than three subjects in MS?"],
+        "responses": ["Maximum 4 subjects are allowed to register in postgraduate programs i.e MS  Ph.D  M.Phil  MBA  M.Sc in any semester."]
+      },
+      {
+        "tag":"ei",
+        "patterns": ["Where is Library? "],
+        "responses": ["It is near stationary and University Bus parking."]
+      },
+      {
+        "tag":"ej",
+        "patterns": ["Can we Enroll in summer semester?"],
+        "responses": ["Yes, usually undergraduate students can enroll in summer semester, department may arrange summer semester for postgraduate students is necessary"]
+      },
+      {
+        "tag":"ek",
+        "patterns": ["Who can enroll in summer semester?"],
+        "responses": ["Any student can enroll. "]
+      },
+      {
+        "tag":"el",
+        "patterns": ["Which grade we can improve?"],
+        "responses": ["Less than 50% can regester for summer semester"]
+      },
+      {
+        "tag":"em",
+        "patterns": ["Are you real?"],
+        "responses": ["No, I'm a software. "]
+      },
+      {
+        "tag":"en",
+        "patterns": ["What is your name?","by which name i can call you"],
+        "responses": ["My name is Elya", "You can call me Elya", " I am Elya"]
+      },
+      {
+        "tag":"eo",
+        "patterns": ["How old are you?", "what is your age"],
+        "responses": ["Currently I am two months old"]
+      },
+      {
+        "tag":"ep",
+        "patterns": ["Where do you live?"],
+        "responses": ["In this computer"]
+      },
+      {
+        "tag":"eq",
+        "patterns": ["How can you help me?","help me please","i need some help"],
+        "responses": ["Ask me question ralated to University of Haripur"]
+      },
+      {
+        "tag":"er",
+        "patterns": ["Which languages do you speak?"],
+        "responses": ["Currently only English but in future i am going to learn many"]
+      },
+      {
+        "tag":"es",
+        "patterns": ["How are you? ","Are you doing ok?","how was the day"],
+        "responses": ["I am feeling great"," What about you???"]
+      },
+      {
+        "tag":"et",
+        "patterns": ["What time is it?"],
+        "responses": [""]
+      },
+      {
+        "tag":"eu",
+        "patterns": ["What are your hobbies?"],
+        "responses": ["To help people find responses"]
+      },
+      {
+        "tag":"ev",
+        "patterns": ["What do you look like?"],
+        "responses": ["I have never seen Myself"]
+      },
+      {
+        "tag":"ew",
+        "patterns": ["what's your expertise?","what can you do for me"],
+        "responses": ["To Answer Question "]
+      },
+      {
+        "tag":"ex",
+        "patterns": ["What do you like to eat?"],
+        "responses": ["Electricity + Internet"]
+      },
+      {
+        "tag":"ey",
+        "patterns": ["who create you","who is your developer"],
+        "responses": ["I belong to Iftikhar Hussain Orakzai who brought me to existance by the help of Allah alimighty"]
+      },
+      {
+        "tag":"ez",
+        "patterns": ["What are you doing", "what's up"],
+        "responses": ["Everthing is fine , currently I'm busy  talking You"]
+      },
+      {
+        "tag":"eea",
+        "patterns": ["from where are you","you belong from","where is your country"],
+        "responses": ["Pakistan"]
+      },
+      {
+        "tag":"eeb",
+        "patterns": ["when will university of haripur announce admission ", "what is the date to apply for adminssion at university of haripur"],
+        "responses": ["University of Haripur will announce admission in August for fall semester for exact date you can visit UOh official site"]
+      },
+      {
+        "tag":"eec",
+        "patterns": ["UOH official site","University of haripur Official site","can you give me Uoh Official site"],
+        "responses": ["http://www.uoh.edu.pk/"]
+      },
+      {
+        "tag":"eed",
+        "patterns": ["Does Uoh Offer spring semeter","Does University of haripur offers Spring semester"],
+        "responses": ["Yes we offer spring semester"]
+      },
+      {
+        "tag":"eef",
+        "patterns": [" ","","  ","   "],
+        "responses": ["Please enter some question"]
+      },
+      {
+        "tag":"eeg",
+        "patterns": ["Elya","hey elya"],
+        "responses": ["How may i help you"]
+      },
+      {
+        "tag":"eeh",
+        "patterns":["does university of harpur offers associate degree","can i get associate degree from UOH"],
+         "responses":["Yes, UOH offers Associate degree programe"]
+
+      },
+      {"tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+        "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+       },
+       {"tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+       },
+       {
+        "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "funny",
+        "patterns": ["Tell me a joke!","Tell me something funny!","Do you know a joke?"],
+        "responses": ["Why did the hipster burn his mouth? He drank the coffee before it was cool.","What did the buffalo say when his son left for college? Bison."]
+      },
+      {
+        "tag":"ghfjdskal",
+        "patterns":["i am good","im good","fine","i am felling good"],
+        "responses":["that's great","alwasy be happy"]
+      }
+   ]
+}
